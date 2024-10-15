@@ -1,0 +1,189 @@
+
+
+
+:root {
+    --primaryColor: hsl(233, 52%, 19%);
+    --secondaryColor: hsl(233, 16%, 44%);
+    --hoverColor: hsl(8, 100%, 70%);
+    --blackColor: #707070;
+    --greyText: hsl(0, 0%, 75%);
+    --bgColor: hsl(0, 0%, 100%);
+    --shadowColor: hsla(0, 0%, 0%, 0.314);
+    --gradient: linear-gradient(to bottom, hsl(16, 100%, 71%), hsl(8, 100%, 70%));
+    --boxShadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    --borderRadius: 10px;
+  
+    /* fonts */
+    --biggestFontSize: 2.4rem;
+    --h1FontSize: 2rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: 0.938rem;
+    --smallFontSize: 0.813rem;
+    --smallerFontSize: 0.75rem;
+  }
+  
+  .Categoriees {
+    padding: 2rem 0;
+    background-color: rgb(2, 2, 37);
+       
+  }
+  
+  .secHeader {
+    text-align: center;
+  }
+  
+  .secHeader span {
+    font-size: var(--normalFontSize);
+    font-weight: 500;
+    /* color: var(--primaryColor); */
+    color: white;
+    display: block;
+    margin-bottom: 0.5rem; /* Added margin for spacing */
+    letter-spacing: normal; /* Ensure normal letter spacing */
+  }
+  
+  .secHeader h2 {
+    font-size: var(--h1FontSize);
+    color: var(--secondaryColor);
+    margin-top: 0.5rem;
+    letter-spacing: normal; /* Ensure normal letter spacing */
+  }
+  
+  .secContainer {
+    /* display: grid; */
+    /* display: flex;
+    gap: 1rem; */
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
+  }
+  
+  .singleCard {
+    text-align: center;
+    padding: 2rem;
+    border-radius: var(--borderRadius);
+    gap: 1rem;
+    height: 100%;
+    background-color: var(--bgColor);
+    transition: box-shadow 0.4s ease-in-out;
+  }
+  
+  .singleCard:hover {
+    box-shadow: var(--boxShadow);
+  }
+  
+  .imgDiv {
+    position: relative;
+    width: 70%;
+    margin: 1rem auto;
+    justify-content: center;
+  }
+  
+  .imgDiv .mainImage {
+    width: 90px; /* Ensure consistent size */
+    display: block; /* Ensure image is a block element */
+    margin: 0 auto;
+  }
+  
+  .imgDiv .design {
+    position: absolute;
+    width: 60px;
+    right: 40%;
+    left: 60%;
+    top: -10px;
+    z-index: -1;
+    transform: translate(-50%);
+  }
+  
+  .singleCard span {
+    font-size: var(--h2FontSize);
+    font-weight: 600;
+    color: var(--primaryColor);
+  }
+  
+  .singleCard p {
+    max-width: 80%;
+    margin: auto;
+    font-weight: 500;
+    color: var(--secondaryColor);
+    line-height: 23px;
+    font-size: var(--normalFontSize);
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+  /* Media queries for responsiveness */
+@media screen and (max-width: 1050px) {
+  .secContainer {
+      grid-template-columns: 1fr;
+  }
+
+  .singleCard {
+      padding: 1.2rem;
+  }
+
+  .singleCard span {
+    
+      font-size: var(--h3FontSize);
+  }
+
+  .singleCard p {
+      font-size: var(--smallFontSize);
+  }
+  .imgDiv .mainImage {
+    width: 70px;
+    height:auto;
+    object-fit: contain;
+}
+.imgDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; /* Add space below image if needed */
+}
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .singleCard {
+      padding: 1rem;
+  }
+
+  .singleCard span {
+      font-size: var(--normalFontSize);
+  }
+
+  .singleCard p {
+      font-size: var(--smallerFontSize);
+  }
+
+  .imgDiv .mainImage {
+      width: 70px;
+      height:auto;
+      object-fit: contain;
+  }
+  .imgDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; 
+}
+}
+
+
+
+
+
+
+
+

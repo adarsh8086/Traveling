@@ -1,0 +1,316 @@
+:root{
+    --primaryColor:hsl(233,52%,19%);
+    --secondaryColor:hsl(233,16%,44%);
+    --hoverColor:hsl(8,100%,70%);
+    --blackColor:#707070;
+    --greyText:hsl(0,0%,75%);
+    --bgColor:hsl(0,0%,100%);
+    --shadowColor:hsla(0,0%,0%,0.314);
+    --gradient:linear-gradient(to bottom,hsl(16,100%,71%),hsl(8,100%,70%));
+    --boxShadow: rgba(0,0,0,0.1) 0px 10px 15px -3px,rgba(0,0,0,0.05) 0px 4px 6px -2px;
+     
+
+
+
+    /* fonts */
+
+    --biggestFontSize:2.4rem;
+    --h1FontSize:2rem;
+    --h2FontSize:1.25rem;
+    --h3FontSize:1rem;
+    --normalFontSize:0.938rem;
+    --smallFontSize:0.813rem;
+    --smallerFontSize:0.75rem;
+
+
+}
+.Home{
+    background-color: #0c0c0c;
+    color: #f8f8ff;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 2rem;
+    height: auto;
+    width: 100vw;
+    position:relative;
+    overflow: hidden;
+    z-index: 1;
+
+     .textDiv{
+         flex: 1;
+        .redText{
+
+            /* color: var(--hoverColor); */
+            font-weight: 600;
+            font-size: 2.rem;
+            text-transform: uppercase;
+            gap: 1rem;
+
+
+        }
+        h2{
+           position: relative;
+           font-size: 2.8rem;
+           font-weight: 900;
+           /* color: var(--primaryColor); */
+
+
+        }
+        .p{
+            color: var(--secondaryColor);
+            font-size: var(--h3FontSize);
+            line-height: 25px;
+        }
+        .buttons{
+            gap: 1rem;
+            .btn{
+                padding: 1rem;
+                font-size: 15px;
+                background-color: var(--hoverColor);
+            }
+            .playBtn{
+             
+              gap: 0.5rem;
+              cursor: pointer;
+              .icon{
+                justify-content: center;
+                height: 40px;
+                width: 40px;
+                padding: 8px;
+                border-radius: 50%;
+                background: var(--gradient);
+                 color: whitesmoke;
+              }
+            }
+        }
+     }
+     .imgDiv {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        height: 50%;
+         width: 20%;
+         margin: auto;
+         border-radius: 50%;
+         img{
+            max-width: 100%;
+             height: 50%;
+            width: auto;
+            object-fit: contain; 
+             scale: 1;
+             border-radius: 50%;
+             margin-right: 12%;
+             
+          } 
+     } 
+    
+} 
+.body{
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries for responsiveness */
+
+
+@media (max-width: 1024px) {
+    .Home {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding:  0 1;
+
+        .textDiv {
+            h2 {
+                font-size: var(--h1FontSize);
+                
+            }
+            p {
+                font-size: var(--normalFontSize);
+                padding-right: 4%;
+            }
+        }
+
+        .imgDiv {
+            width: 100%;
+            img {
+                max-width: 80%;
+                height: auto;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .Home {
+        gap: 1rem;
+        padding: 0 1rem;
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+
+    .textDiv {
+        width: 100%; 
+        box-sizing: border-box; 
+
+        .redText {
+            font-size: var(--normalFontSize);
+            word-wrap: break-word; /* Break long words to avoid overflow */
+            white-space: normal; 
+        }
+
+        h2 {
+            font-size: var(--h2FontSize);
+            margin: 0.5rem 0; /* Add margin for spacing */
+            word-wrap: break-word; /* Break long words to avoid overflow */
+            white-space: normal; /* Allow text to wrap */
+        }
+
+        p {
+            font-size: var(--smallFontSize);
+            overflow: hidden;
+            margin: 0.5rem 0; /* Add margin for spacing */
+            padding: 0;
+            word-wrap: break-word; /* Break long words to avoid overflow */
+            white-space: normal; /* Allow text to wrap */
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column; /* Stack buttons vertically */
+            align-items: center; /* Center align buttons */
+            width: 100%; /* Ensure buttons container takes the full width */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+            .btn {
+                width: 100%; /* Ensure button takes the full width */
+                box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            }
+        }
+    }
+
+    .imgDiv {
+        width: 100%; /* Ensure imgDiv takes the full width */
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        margin-top: 1rem; /* Add margin to separate image from text */
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 9%;
+            margin-left: 5%;
+        }
+    }
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .Home {
+        padding: 1rem;
+        gap: 0.5rem;
+        text-align: center;
+        margin: 0;
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+
+    .textDiv {
+        padding: 1rem 0; 
+        width: 100%; 
+        box-sizing: border-box; 
+
+        .redText {
+            font-size: var(--smallFontSize);
+        }
+
+        h2 {
+            font-size: var(--normalFontSize);
+            margin: 0.5rem 0; 
+            word-wrap: break-word; 
+        }
+
+        p {
+            font-size: var(--smallerFontSize);
+            overflow: hidden;
+            margin: 0.5rem 0; 
+            padding: 0;
+            word-wrap: break-word; 
+            white-space: normal; 
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            width: 100%; 
+            box-sizing: border-box;
+
+            .btn {
+                padding: 0.5rem;
+                font-size: var(--smallFontSize);
+                margin-bottom: 0.5rem; 
+                width: 100%; 
+                box-sizing: border-box;
+            }
+
+            .playBtn {
+                display: flex;
+                align-items: center;
+                width: 100%; 
+                box-sizing: border-box;
+
+                .icon {
+                    height: 20px; 
+                    width: 20px; 
+                    margin-right: 0.5rem; 
+                }
+
+                span {
+                    font-size: var(--smallFontSize); 
+                }
+            }
+        }
+    }
+
+    .imgDiv {
+        margin-top: 1rem; 
+        width: 100%; 
+        box-sizing: border-box; 
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+ 
+
+
+
+
+
+

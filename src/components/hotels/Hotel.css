@@ -1,0 +1,91 @@
+:root {
+    --primaryColor: hsl(233, 52%, 19%);
+    --secondaryColor: hsl(233, 16%, 44%);
+    --hoverColor: hsl(8, 100%, 70%);
+    --blackColor: #707070;
+    --greyText: hsl(0, 0%, 75%);
+    --bgColor: hsl(0, 0%, 100%);
+    --shadowColor: hsla(0, 0%, 0%, 0.314);
+    --gradient: linear-gradient(to bottom, hsl(16, 100%, 71%), hsl(8, 100%, 70%));
+    --boxShadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    --borderRadius: 10px;
+  
+    /* fonts */
+    --biggestFontSize: 2.4rem;
+    --h1FontSize: 2rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: 0.938rem;
+    --smallFontSize: 0.813rem;
+    --smallerFontSize: 0.75rem;
+  }
+
+
+
+  .Destinations{
+       
+      
+    .secHeader{
+        text-align: center;
+    }
+    .seccContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 2rem;
+        .singleCard{
+            text-align: center;
+            border-radius: var(--borderRadius);
+            overflow: hidden;
+            box-shadow: var(--boxShadow);
+
+             .imgDiv{
+                 height: 290px;
+                 width: 100%;
+                 overflow: hidden;
+                  
+                 img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    &:hover{
+                        scale: 1.1;
+                        transform:  all .4s ease-in-out;
+                    }
+                 }
+             }
+
+             .infoDiv{
+                padding:  0 1rem 1.5rem;
+                 
+                .upperSpan{
+                    justify-content: space-between;
+                    font-size: var(--h3FontSize);
+                    font-weight: 600;
+                    color: var(--secondaryColor);
+                }
+                .lowerSpan{
+
+                    padding-top: 1rem;
+                    .icon{
+                        font-size: 15px;
+                        margin-right: 1rem;
+                        color: var(--primaryColor); 
+                    }
+                    span{
+                       font-weight: 500;
+                       font-size: var(--h3FontSize);
+                       color: var(--secondaryColor);
+                    }
+                }
+             }
+
+             &:hover{
+                box-shadow: var(--boxShadow);
+                transition: all .4s ease-in-out;
+             }
+        }
+    }
+  }
+
+  

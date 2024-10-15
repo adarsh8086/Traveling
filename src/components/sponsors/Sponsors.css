@@ -1,0 +1,43 @@
+:root {
+    --primaryColor: hsl(233, 52%, 19%);
+    --secondaryColor: hsl(233, 16%, 44%);
+    --hoverColor: hsl(8, 100%, 70%);
+    --blackColor: #707070;
+    --greyText: hsl(0, 0%, 75%);
+    --bgColor: hsl(0, 0%, 100%);
+    --shadowColor: hsla(0, 0%, 0%, 0.314);
+    --gradient: linear-gradient(to bottom, hsl(16, 100%, 71%), hsl(8, 100%, 70%));
+    --boxShadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    --borderRadius: 10px;
+  
+    /* fonts */
+    --biggestFontSize: 2.4rem;
+    --h1FontSize: 2rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: 0.938rem;
+    --smallFontSize: 0.813rem;
+    --smallerFontSize: 0.75rem;
+  }
+.Sponsors{
+    padding: 2rem 0;
+    background-color: #707070;
+
+    .logos{
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content:center ;
+
+        img{
+            width: 100px;
+            filter: sepia(1);
+            cursor: pointer;
+
+            &:hover{
+                filter: sepia(0);
+                opacity: 1;
+
+            }
+        }
+    }
+}
