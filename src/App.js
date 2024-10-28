@@ -23,6 +23,7 @@ function App() {
    <div  style={{ marginTop: '110px' }}>
     <Routes>
       <Route path="/" element={<Layout />} />
+      <Route path="/react" element={<Layout />} />
       <Route path="/categories" element={<Categories />} />
       <Route path="/destinations" element={<Destinations />} />
       <Route path="/hotels" element={<Hotel />} />
