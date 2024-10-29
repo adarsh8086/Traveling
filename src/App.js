@@ -18,7 +18,7 @@ function App() {
   return (
   
 
-  <BrowserRouter>
+  <BrowserRouter basename="/Traveling">
      <Header />
    <div  style={{ marginTop: '110px' }}>
     <Routes>
