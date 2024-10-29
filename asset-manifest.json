@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Traveling/static/css/main.c045164c.css",
+    "main.js": "/Traveling/static/js/main.83d51af4.js",
+    "static/js/453.64512fd7.chunk.js": "/Traveling/static/js/453.64512fd7.chunk.js",
+    "static/media/uk1.jpg": "/Traveling/static/media/uk1.25c12c945a5fb060fdba.jpg",
+    "static/media/norway.jpg": "/Traveling/static/media/norway.af31283a2ba1f82006a2.jpg",
+    "static/media/view point.jpg": "/Traveling/static/media/view point.7973c6331bb5042eb9bf.jpg",
+    "static/media/dubai.jpg": "/Traveling/static/media/dubai.6f04cf02e7a12b757b9a.jpg",
+    "static/media/paris.jpg": "/Traveling/static/media/paris.81fff1eeb4b8171497cd.jpg",
+    "static/media/travel hiking.jpg": "/Traveling/static/media/travel hiking.8418a17c5f8c0bdc2111.jpg",
+    "static/media/bag.jpg": "/Traveling/static/media/bag.a112dad8dd0073b4e1b7.jpg",
+    "static/media/hotel 1.jpg": "/Traveling/static/media/hotel 1.c584eed4b42281e2937f.jpg",
+    "static/media/rome.jpg": "/Traveling/static/media/rome.0fb1a886874e37c669e7.jpg",
+    "static/media/europe.jpg": "/Traveling/static/media/europe.d935a64a2089967efef4.jpg",
+    "static/media/car.jpg": "/Traveling/static/media/car.5cb9f30ee9dbc0698cec.jpg",
+    "static/media/select.jpg": "/Traveling/static/media/select.8ffd879b939f59bb8e11.jpg",
+    "static/media/hotel 2.jpg": "/Traveling/static/media/hotel 2.595c269652813ddd56c1.jpg",
+    "static/media/hotel 6.jpg": "/Traveling/static/media/hotel 6.b8b5bc71712132513e1d.jpg",
+    "static/media/plane.jpg": "/Traveling/static/media/plane.6bd0b1f581ffb0a8c7fe.jpg",
+    "static/media/hotel 3.jpg": "/Traveling/static/media/hotel 3.1e38e115181f0fcf96e4.jpg",
+    "static/media/hotels 5.jpg": "/Traveling/static/media/hotels 5.ef30448bc9dbfbb4b508.jpg",
+    "static/media/hotel 4.jpg": "/Traveling/static/media/hotel 4.3a7cbd889efb76f6b9bd.jpg",
+    "static/media/micro.jpg": "/Traveling/static/media/micro.d0c7bdb462a5d7f5e579.jpg",
+    "static/media/weather.jpg": "/Traveling/static/media/weather.f9e6074722add57a80e6.jpg",
+    "static/media/travel 2.jpg": "/Traveling/static/media/travel 2.fae128582b5f02d1e9ab.jpg",
+    "static/media/settings.jpg": "/Traveling/static/media/settings.1c1ff4fa42c17a42ba46.jpg",
+    "static/media/money.jpg": "/Traveling/static/media/money.62e572ef73af3b4c26b5.jpg",
+    "static/media/travel 3.jpg": "/Traveling/static/media/travel 3.ddd102ceb332a5ea7547.jpg",
+    "static/media/travel.jpg": "/Traveling/static/media/travel.f3d172b59a4c8ed7deeb.jpg",
+    "static/media/travel 1.jpg": "/Traveling/static/media/travel 1.8935bf91d607ed4c0928.jpg",
+    "index.html": "/Traveling/index.html",
+    "main.c045164c.css.map": "/Traveling/static/css/main.c045164c.css.map",
+    "main.83d51af4.js.map": "/Traveling/static/js/main.83d51af4.js.map",
+    "453.64512fd7.chunk.js.map": "/Traveling/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c045164c.css",
+    "static/js/main.83d51af4.js"
+  ]
+}
