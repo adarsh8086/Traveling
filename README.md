@@ -32,4 +32,16 @@ A responsive travel website built with **React, HTML, CSS, and JavaScript**. It 
 
    ```bash
    git clone https://github.com/adarsh8086/Traveling.git
+   
+
+## 🖼️ **Screenshots**
+
+### 🏠 **Homepage**
+
+![Homepage Screenshot](screenshots/homepage.png)
+
+### 🌍 **Destination Guide**
+
+![Destination Guide Screenshot](screenshots/destination-guide.png)
+
 
