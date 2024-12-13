@@ -45,7 +45,7 @@ A responsive travel website built with **React, HTML, CSS, and JavaScript**. It 
 ![Destination Guide Screenshot](screenshots/Destination.png)
 
 
-### 🛒 **Booking Page**
+### ✈️ **Booking Page**
 
 ![Booking Screenshot](screenshots/booking.png)
 
