@@ -26,12 +26,7 @@ A responsive travel website built with **React, HTML, CSS, and JavaScript**. It 
 
 ---
 
-## 📥 **How to Run the Project Locally**
 
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/adarsh8086/Traveling.git
    
 
 ## 🖼️ **Screenshots**
